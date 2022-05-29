@@ -1,0 +1,32 @@
+Lp,"Miejsce w specyfikacji, gdzie jest nieścisłość",Co jest nieścisłością?,Jak powinno być,
+,„4. Wymagania środowiskowe”. Strona 7 ,Urzyta ,Użyta,
+,Strona 4 – Spis definicji,"Tryb członka drużyny – ""ograniczenie szukania defektów""",zgłaszania,
+,"strona 12,wymagania bezpieczeństwa pkt 3 "," Wymaganie 4 różnych znaków , ale hasło może mieć co najmniej 2 : login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedna wielką literę, jedną cyfrę i jeden znak specjalny",min 4,
+,str 14 kryteria oceny defektów ,"informacja na temat przyznawania punktów w ""defekty normalne"" i ""defekty krytyczne"" dwa razy pojawia się cyfra 4 ",defekt krytyczny (5-6),
+,"Strona 6, punkt 6 Wersje aplikacji","""Wymagane są cztery wersje aplikacji klienckiej"". Podane są trzy wersje ",trzy,
+,str 10 Pole “Czas”,"Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss; godzina, minuta, sekunda, milisekunda)",gg:mm:ss, 
+,Strona 6 – 1 Wstęp,MrBuggy 2015,MrBurggy3,
+,7 Wymagania niefunkcjonalne. 7.1 Wymagania wydajnościowe. Strona 12,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1 – możliwy błąd/ niejasność zapisu wielkości pliku,2MB,
+,str 13 7.3 Wymagania niezawodności,W trakcie trwania mistrzostw  nie da się tego sprawdzić · w ciągu roku średnia ilość awarii (rozumianych jako ilość niespodziewanych wyłączeń aplikacji wymagających skorzystania z kopii zapasowej) w jednym dniu nie może być większa niż 1,,
+,Strona 12 - 7.1 wydajność aplikacji,"""t - średni czas odpowiedzi interfejsu ma być większa od 10000"" - jaka jednostka została użyta?",1 s,
+,Strona 12 - 7.2 Wymagania bezpieczeństwa,"Dopytanie odnośnie wymogów, doprecyzowanie wersji aplikacji, której dotyczą",,
+,"Strona 10, punkt 6.1 przyciski nawigacyjne",odsyłają do bieżącego zadania oraz do poprzedniego i następnego,odsyłają do poprzedniego i następnego zadania,
+,"str 8 , 5 Wymagania funkcjonalne pkt 4 ",Brak konkretnego wskazania jak numeruje się zadania,,
+,"str 8 , 5 Wymagania funkcjonalne pkt 5","Brak wyjaśnienia w dalszej częsci -- W przypadku braku połączenia sieciowego - za pomocą funkcji eksportu z części klienckiej i importu w części serwerowej. Opis tej funkcjonalności zostanie przedstawiony w dalszej części
+
+",,
+,"Strona 14, punkt 10 Harmonogram",(zgodnie z zawartym harmonogramem prac) brakuje harmonogramu,,
+,"str 10, 9","Przycisk “Zaraportuj defekt” - ma zapisać wersję w przypadku awarii, jednak na str 8-9 jest mowa o przycisku ""znalazłem defekt"", który nie jest wymieniony w interfejsie",Znalazłem defekt,
+,strona 10 - przycisk zaraportuj defekt oraz strona 8 - tryb członka drużyny,"funkcja ""zaraportuj defekt"" ma według specyfikacji być dostępna dla wszystkich trybów pracy w aplikacji. Jednak wcześniej wspomniano, że w trybie członka drużyny raportowanie jest zablokowane",w trybie członka drużyny raportowanie jest zablokowane,
+,"str 11, 10","Przycisk “opis zadania"" na rysunku schematu interfejsu w specyfikacji występuje jako ""opis problemu"" ",opis zadania,
+,"str 10,11","Na rysunku schematu interfejsu widnieje przycisk ""status połączenia"", nie jest on wspomniany w specyfikacji ",,
+,12,hasło musi składać się z co najmniej 20 znaków,8,
+,str 13 7.2,Za mało informacji o urzywaniu i generowaniu tokenów --tokeny do konta mają być generowane losowo,,
+,str 13 pkt 7.2,brak opcji usuń konto.,,
+,strona 5 i 13,"""instalator aplikacji - program, który zainstaluje aplikację MrBuggy 3
+w środowisku docelowym"", a następnie jest napisane, że instalator nie jest wymagany",instalator nie jest wymagany,
+,str 13 7.2,"na czym polega przywracanie konta - musi zostać zaimplementowana procedura zakładania, przywracania oraz
+odblokowywania konta",,
+,"str 12 pkt 7,2 ", wpisanie błędnego hasła lub jego części - to jest to samo,wpisanie błędnego hasła,
+,str 7 pkt 4,"Język programowania oraz baza danych urzyta podczas tworzenia
+aplikacji nie są zdefiniowane. - pkt 6.2 - użyto JAva 7",nie są zdefiniowane,
