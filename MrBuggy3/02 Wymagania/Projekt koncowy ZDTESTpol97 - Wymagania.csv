@@ -1,0 +1,34 @@
+ ,Wymaganie w oparciu o specyfikację
+1,czas odpowiedzi interfejsu musi być krótszy od 1 sekundy
+2,raport zbiorczy ma się generować nie dłużej niż 15 sekund.
+3,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB
+4,Aplikacja powinna powinna działać jako portable (bez potrzeby instalacji).
+5,"Stworzenie 3 wersji aplikacji: demo (w celu zapoznawczym), końcowa (na zawody) oraz publiczna (po zawodach, dla wszystkich użytkowników)."
+6,"Środowisko dla klienta – Windows 7, 8/8.1"
+7,Środowisko dla serwera - Windows 7
+8,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rodz. 1024x768
+9,aplikacja serwerowa musi być w stanie przyjąć w jednym momencie do 50 raportów użytkowników
+10,aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB pamięci operacyjnej komputera
+11,Część kliencka - w aplikacji dostępnych ma być nie mniej niż 15 zadań (problemów
+12,Część kliencka - w każdym zdaniu ma być dokładnie jeden defekt
+13,Część kliencka - aplikacja nie posiada generatora zadań. Wszystkie zadania mają zostać zaimplementowane w aplikacji
+14,"Część serwerowa - Automatyczne sprawdzanie wyników
+"
+15,dostęp do części serwerowej aplikacji musi być zabezpieczony loginem i hasłem
+16,loginy muszą być indywidualne dla każdego użytkownika części serwerowej aplikacji
+17,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim."
+18,"login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+19,Login nie może zawierać białych znaków ani polskich znaków dialektycznych
+20,"hasło musi składać się z co najmniej 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny"
+21,"Panel menu boczne powinień zawierać takie pola jak: czas, nr zadania, opis zadania, lista zadań, następne, poprzednie, znalazłem defekt, zakończ, status połaczenia"
+22,"Aplikacja kliencka musi pracować w jednym z trzech trybów : tryb kapitana drużyny, członka , zawodnika "
+23,generowanie dziennika zdarzeń
+24,tworzenie kopi zapasowej po każdym kliknięciu <znalazłem defekt>
+25,kopia zapasowa to automatycznie przywracalny plik binarny
+26,Część kliencka - w przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji.
+27,Część kliencka - kolejność wykonywania zadań ma być losowa
+28,hasła muszą być przechowywane w formacie zaszyfrowanym
+29,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+30,"część serwerowa musi posiadać możliwość tworzenia kopii zapasowej raportu 
+zbiorczego
+"
